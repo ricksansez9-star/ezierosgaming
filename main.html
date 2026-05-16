@@ -483,11 +483,11 @@ body {
 //  GAMES LIST — add your games here
 // ══════════════════════════════════════════════════
 let games = [
-  { name: 'Half Life 1',               icon: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70/capsule_616x353.jpg?t=1745368462',         file: 'halflife.html' },
-  { name: 'Minecraft 1.8 ',            icon: 'https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png',         file: 'Minecraft 1.8 2x fps.html' },
-  { name: 'Minecraft 1.12 ',           icon: 'https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png',         file: 'Minecraft 1.12.html' },
-  { name: 'Mario 64 ',                 icon: 'https://s3.amazonaws.com/gameopedia_covers/covers/291779/2c138eb2b338d6f0db383d47ccedb946.png',         file: 'N64 Mario 64.html' },
-  { name: 'Hollow Knight',              icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlX0XzMgaLleJG-WgAUDUhTrLav5Mcr9BaSZSvE0DfbAPXEsr5wESN_lnk0o4SF_Tj_kZJ&s=10', file: 'HallowKnight.html'},
+  { name: 'Half Life 1', icon: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70/capsule_616x353.jpg?t=1745368462', file: 'halflife.html' },
+  { name: 'Minecraft 1.8 ', icon: 'https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png', file: 'Minecraft 1.8 2x fps.html' },
+  { name: 'Minecraft 1.12 ', icon: 'https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png', file: 'Minecraft 1.12.html' },
+  { name: 'Mario 64 ', icon: 'https://s3.amazonaws.com/gameopedia_covers/covers/291779/2c138eb2b338d6f0db383d47ccedb946.png', file: 'N64 Mario 64.html' },
+  { name: 'Hollow Knight', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlX0XzMgaLleJG-WgAUDUhTrLav5Mcr9BaSZSvE0DfbAPXEsr5wESN_lnk0o4SF_Tj_kZJ&s=10', file: 'HallowKnight.html'},
   { name: 'Kindergarden 2', icon: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1067850/capsule_616x353.jpg?t=1713346724', file: 'Kindergarden 2.html'},
   { name: 'Undertale', icon: 'https://s3.amazonaws.com/gameopedia_covers/covers/504052/afa774e7566c0e592f9a3d958a70d73e.png', file: 'Undertale.html'},
   { name: 'Garrys Mod', icon: 'https://images.steamusercontent.com/ugc/395553315328698553/C96F9BF14AE6439C24DD3292687A30B1DC498660/', file: 'GMOD.html'},
@@ -496,10 +496,17 @@ let games = [
   { name: 'Minecraft 1.21', icon: 'https://www.minecraft.net/content/dam/minecraftnet/franchise/component-library/parallaxC/scene_default/day/Focus_Cherry.png', file: 'MC1.21.html'},
   { name: 'Kindergarden 1', icon: 'https://m.media-amazon.com/images/M/MV5BY2Q1ZTQxYzctZTA1Ny00Mjc0LTk3YjgtMmJlZmIyOWQ2MzdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg', file: 'Kindergarden.html'},
   { name: 'Bloodmoney', icon: 'https://static.wikia.nocookie.net/bloodmoneyclick/images/f/fc/Harvey_Natural.png/revision/latest?cb=20250822110942', file: 'BloodMoney.html'},
-  { name: 'The DVD Corner Game from Awk OS 1 or sumthin', icon: 'https://www.minitool.com/images/uploads/2019/06/what-is-dvd-1.jpg', file: 'DVD_BOUNCE.html'},
+  { name: 'The DVD Corner Game', icon: 'https://www.minitool.com/images/uploads/2019/06/what-is-dvd-1.jpg', file: 'DVD_BOUNCE.html'},
   { name: 'Animal Crossing', icon: 'https://animalcrossingworld.com/wp-content/uploads/2026/04/animal-crossing-series-25th-anniversary-artwork-thank-you-790x444.jpg', file: 'animal_crossing.html'},
-{ name: 'SILKSONG?!', icon: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Silksong.jpg/250px-Silksong.jpg', file: 'hollow_knight__silksong.html'},
-
+  { name: 'SILKSONG?!', icon: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Silksong.jpg/250px-Silksong.jpg', file: 'hollow_knight__silksong.html'},
+  { name: 'Geometry Dash', icon: 'https://upload.wikimedia.org/wikipedia/en/3/35/Geometry_Dash_Logo.PNG', file: 'geometry_dash.html' },
+  { name: 'Doom', icon: 'https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg', file: 'doom.html' },
+  { name: 'Doom 2', icon: 'https://upload.wikimedia.org/wikipedia/en/e/e3/Doom_II_-_Hell_on_Earth_Coverart.png', file: 'doom_2.html' },
+  { name: 'FNF: Garcello', icon: 'https://static.wikia.nocookie.net/fridaynightfunking/images/e/ed/SmokeEmOutStruggle.png', file: 'fnf_garcello.html' },
+  { name: 'FNF: Kapi', icon: 'https://static.wikia.nocookie.net/fridaynightfunking/images/f/f6/VS_Kapi.png', file: 'fnf_kapi.html' },
+  { name: 'FNF: Sonic.EXE', icon: 'https://static.wikia.nocookie.net/fridaynightfunking/images/e/ec/SonicEXE_V2_icon.png', file: 'fnf_sonic_exe.html' },
+  { name: 'Omori', icon: 'https://upload.wikimedia.org/wikipedia/en/d/d4/Omori_Video_Game_Cover.png', file: 'omori.html' },
+  { name: 'Class of 09', icon: 'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1443430/capsule_616x353.jpg', file: 'class_of_09.html' }
 ];
 
 // ══════════════════════════════════════════════════
