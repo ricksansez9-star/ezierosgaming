@@ -97,7 +97,8 @@ body {
 #search::placeholder { color: #2a3a4a; }
 #search:focus { border-color: var(--green); box-shadow: 0 0 0 2px var(--gdim); }
 
-#btn-add {
+#btn-add,
+#btn-repo {
   background: transparent;
   border: 1px solid var(--green);
   color: var(--green);
@@ -111,8 +112,13 @@ body {
   box-shadow: 0 0 12px var(--gdim);
   transition: background 0.15s, box-shadow 0.2s;
   white-space: nowrap;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-#btn-add:hover {
+#btn-add:hover,
+#btn-repo:hover {
   background: var(--gdim);
   box-shadow: 0 0 24px var(--glow);
 }
@@ -426,6 +432,7 @@ body {
   <div class="subtitle">GAMES</div>
   <div class="spacer"></div>
   <input id="search" type="text" placeholder="Search games..." oninput="render()">
+  <a id="btn-repo" href="https://github.com/ricksansez9-star/ezierosgaming" target="_blank" rel="noopener">REPO</a>
   <button id="btn-add" onclick="openDrawer()">+ ADD GAME</button>
   <div id="clock"></div>
 </div>
